@@ -1,0 +1,2 @@
+<app-todo-add (addNewItemEvent)="addItemToTodoList($event)"></app-todo-add>
+<app-todo-list [todoList]="todoList" (todoDeleteEvent)="deleteTodoItem($event)"></app-todo-list>
