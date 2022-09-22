@@ -1,7 +1,4 @@
-<app-todo></app-todo>
-<button (click)="getJoke()">Get a random joke</button>
-<p>{{joke.setup}}</p>
-<button (click)="showPunchline()">Reveal Punchline</button>
-<p *ngIf="punchlineVisible">{{joke.punchline}}</p>
-<button (click)="startTimer()">Start</button>
-<h1 *ngIf="hours !== undefined">{{hours !== undefined && formatTime(hours)}}:{{minutes !== undefined && formatTime(minutes)}}:{{seconds !== undefined && formatTime(seconds)}}</h1>
+<div class="grid-container">
+  <app-calculator></app-calculator>
+  <app-todo></app-todo>
+</div>
