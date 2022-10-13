@@ -1,0 +1,3 @@
+<ul>
+  <li *ngFor="let todo of todoList;let i = index">{{todo}} <button (click)="deleteTodoItem(i)">Delete</button></li>
+</ul>
